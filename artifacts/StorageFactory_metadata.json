@@ -4,7 +4,28 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createsimple",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simplestorage",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +54,11 @@
 	},
 	"sources": {
 		"StorageFactory.sol": {
-			"keccak256": "0xfc43cb27743eb404feca61a81db5c1f5a23ce4a69a8d4e4e3eecee6e7af95606",
+			"keccak256": "0x2004895fa29739327c70f2a6da2fd3e702366be0714695f78e3d91a24e84d106",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5141c7037adff48d1fea46afc9dbfe9c758b8eb8f2b03af8d139acde9e68883f",
-				"dweb:/ipfs/QmVAuvzwWjeNEnky3g3SqcbTGLk1eFMGe8dZeKfxV21Wju"
+				"bzz-raw://23b10d7757ee44306ec40042525c1bcd8cd83ae7b8d48a3653592d9a2af830ad",
+				"dweb:/ipfs/QmPPKYpCcMMovwXGzbjcRYvzTC1jS8FVJd1iSKs1bW77qi"
 			]
 		}
 	},
