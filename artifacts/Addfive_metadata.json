@@ -83,7 +83,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "newnum",
 						"type": "uint256"
 					}
 				],
@@ -106,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleStorage.sol": "SimpleStorage"
+			"Addfive.sol": "Addfive"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -120,6 +120,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"Addfive.sol": {
+			"keccak256": "0xadc04180812d048149a7e61e4c741ee05090a52ae49dc0e4e6dd3f5358dca678",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d34e849a2a1bfd015d08077516af3aed36ab2ea97b1bd37a6d4e6c29c23f10e",
+				"dweb:/ipfs/QmScSLYstyGGk5znBsAeJJmF7WfN83TWZstmDwSBVFVWVP"
+			]
+		},
 		"SimpleStorage.sol": {
 			"keccak256": "0xa7313ee1f064c8ee242ece9a35e10e6ca927ef7f777777f2dd4f78d6a0568c32",
 			"license": "MIT",
